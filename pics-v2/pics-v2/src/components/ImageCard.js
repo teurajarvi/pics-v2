@@ -7,8 +7,12 @@ class ImageCard extends React.Component {
   }
 
   componentDidMount() {
-    console.log(this.pictureRef);
+    this.pictureRef.current.addEventListener("load", this.setSpans);
   }
+
+  setSpans = () => {
+    console.log(this.pictureRef.current.clientHeight);
+  };
 
   render() {
     const { description, urls } = this.props.picture;
