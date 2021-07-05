@@ -1,14 +1,14 @@
-# pics-v1
+# pics-v2
 
 React app to search pictures
 
 ## Clone the project using Git
 
-> git clone https://github.com/teurajarvi/pics-v1.git
+> git clone https://github.com/teurajarvi/pics-v2.git
 
 ## Install and run the project
 
-> cd pics-v1
+> cd pics-v2
 
 > npm install
 
@@ -25,4 +25,4 @@ React app to search pictures
 
 ## How the React project was initially created
 
-> npx create-react-app pics-v1
+> cp -r pics-v1
